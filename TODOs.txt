@@ -1,4 +1,4 @@
-demos for file diff
+demo for file diff
 1) write something to the file
 2) see the M icon showing next to the filename
 3) See the number of changes showing on the Git icon
