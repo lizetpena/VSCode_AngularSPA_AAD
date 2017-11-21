@@ -1,7 +1,7 @@
 ---
 services: active-directory
 platforms: javascript
-author: jmprieur
+
 ---
 
 # Integrating Azure AD into an AngularJS single page app
@@ -15,7 +15,7 @@ For more information about how the protocols work in this scenario and other sce
 ## How To Run This Sample
 
 Getting started is simple!  To run this sample you will need:
-- Visual Studio 2013
+- VS Connect
 - An Internet connection
 - An Azure Active Directory (Azure AD) tenant. For more information on how to get an Azure AD tenant, please see [How to get an Azure AD tenant](https://azure.microsoft.com/en-us/documentation/articles/active-directory-howto-tenant/) 
 - A user account in your Azure AD tenant. This sample will not work with a Microsoft account, so if you signed in to the Azure portal with a Microsoft account and have never created a user account in your directory before, you need to do that now.
@@ -23,7 +23,7 @@ Getting started is simple!  To run this sample you will need:
 ### Step 1:  Clone or download this repository
 
 From your shell or command line:
-`git clone https://github.com/Azure-Samples/active-directory-angularjs-singlepageapp.git`
+`git clone https://github.com/lizetpena/VSCode_AngularSPA_AAD.git`
 
 ### Step 2:  Register the sample with your Azure Active Directory tenant
 
@@ -47,7 +47,7 @@ By default, applications provisioned in Azure AD are not enabled to use the OAut
 
 ### Step 4:  Configure the sample to use your Azure Active Directory tenant
 
-1. Open the solution in Visual Studio 2013.
+1. Open the solution in VSCode.
 2. Open the `web.config` file.
 3. Find the app key `ida:Tenant` and replace the value with your AAD tenant name.
 4. Find the app key `ida:Audience` and replace the value with the Application ID from the Azure portal.
